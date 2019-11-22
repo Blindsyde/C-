@@ -1,0 +1,15 @@
+#include <iostream>
+
+int main() {
+  //this is my dog's age
+  int dog_age = 5;
+  //this is the first 2 years of a dog in human years
+  int early_years = 21;
+  //every following year counts as 4 human years
+  int later_years = (dog_age - 2) * 4;
+  //this is the calculation for human years
+  int human_years = early_years + later_years;
+  //output
+  std::cout << "My name is Charlie, Ruff ruff, I am " << human_years << " old in human years!";
+  
+}
