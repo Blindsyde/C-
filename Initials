@@ -1,0 +1,11 @@
+#include <iostream>
+//fun comment about myself
+int main() {
+  std::cout << "BBBB    PPPP \n";
+  std::cout << "B    B  P     P\n";
+  std::cout << "B    B  P     P\n";
+  std::cout << "BBBB    PPPP\n";
+  std::cout << "B    B  P\n";
+  std::cout << "B    B  P\n";
+  std::cout << "BBBB    P\n";
+}
