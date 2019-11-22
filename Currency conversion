@@ -4,8 +4,12 @@ int main() {
   // Pesos conversion rate: 0.00032
   // Reais conversion rate: 0.27
   // Soles conversion rate: 0.3
+  // Quetzals conversion rate: 0.1305
+  // Colons conversion rate: 0.1144
+
+
   //variables
-  double pesos, reais, soles, dollars;
+  double pesos, reais, soles, quet, colo, dollars;
   
   //process
   std::cout << "Enter number of Colombian Pesos: \n";
@@ -14,9 +18,13 @@ int main() {
   std::cin >> reais;
   std::cout << "Enter number of Peruvian Soles: \n";
   std::cin >> soles;
+  std::cout << "Enter number of Guatemalan Quetzals: \n";
+  std::cin >> quet;
+  std::cout << "Enter number of Salvadoran Colons: ";
+  std::cin >> colo;
   
   //calculations
-  dollars = (0.00032 * pesos) + (0.27 * reais) + (0.3 * soles);
+  dollars = (0.00032 * pesos) + (0.27 * reais) + (0.3 * soles)+ (0.1305 * quet) + (0.1144 * colo);
   
   std::cout << "US Dollars = $" << dollars << "\n";
   
