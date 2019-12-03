@@ -4,8 +4,8 @@
 int main() {
   greet();
   
-  std::string codeword = "codecademy";
-  std::string answer = "__________";
+  std::string codeword = "martian";
+  std::string answer = "_______";
   int misses = 0;
   std::vector<char> incorrect;
   bool guess = false;
